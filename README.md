@@ -1,7 +1,7 @@
 Group Info
 ==============================
-
-* Group Project team 34: Internship form edit online
+* Group ID: *34*
+* Project Name: *Internship Form Edit Online*
 
 Members
 ==============================
