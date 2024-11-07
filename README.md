@@ -1,7 +1,7 @@
 Group Info
 ==============================
 
-* Project Name: *Internship Register Application Form Online*
+* Group Project team 34: Internship form edit online *
 
 Members
 ==============================
