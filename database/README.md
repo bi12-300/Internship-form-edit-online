@@ -1,4 +1,4 @@
-bảng và cấu trúc dữ liệu:
+Bảng và cấu trúc dữ liệu:
 
 Users: Lưu thông tin người dùng (sinh viên, admin, giảng viên).
 
@@ -44,7 +44,7 @@ total_approved (INT),
 total_rejected (INT),
 created_at (TIMESTAMP)
 
-2.2. Định Nghĩa Quan Hệ
+Định Nghĩa Quan Hệ
 
 - giữa bảng Users và Internship_Procedures: Mỗi admin có thể tạo nhiều thủ tục.
  
