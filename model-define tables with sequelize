@@ -1,0 +1,22 @@
+// models/User.js
+const { DataTypes } = require("sequelize");
+const sequelize = require("../config/database");
+
+const User = sequelize.define("User", {
+  username: { type: DataTypes.STRING, allowNull: false, unique: true },
+  password: { type: DataTypes.STRING, allowNull: false },
+  role: { type: DataTypes.ENUM("student", "admin"), defaultValue: "student" },
+});
+
+module.exports = User;
+
+// models/Internship.js
+const { DataTypes } = require("sequelize");
+const sequelize = require("../config/database");
+
+const Internship = sequelize.define("Internship", {
+  title: { type: DataTypes.STRING, allowNull: false },
+  description: { type: DataTypes.TEXT },
+});
+
+module.exports = Internship;
